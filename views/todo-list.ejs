@@ -1,0 +1,10 @@
+<h2><%= todoList.get('name') %></h2>
+
+<ul>
+  <% for(let index = 0; index < todos.length; index++){ %>
+    <% let todo = todos[index] %>
+    <li>
+      <%= todo.get('name') %>
+    </li>
+  <% } %>
+</ul>
